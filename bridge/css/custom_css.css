@@ -1,0 +1,446 @@
+
+
+/*
+#fancybox-close {
+    top: -18px !important;
+    right: -18px !important;
+    width: 24px !important;
+    height: 24px !important;
+    background: transparent url(/wp-content/uploads/2018/09/baseline-close-24px.png) -26px 0 !important;
+}
+*/
+#fancybox-close {
+    top: -65px !important;
+    right: -65px !important;
+    width: 80px !important;
+    height: 80px !important;
+    background: transparent url(/wp-content/plugins/VC_Modal_Popup/img/cross.png) no-repeat center center !important;
+    position: fixed;
+}
+@media (max-width: 1024px) {
+#fancybox-close {
+    width: 24px !important;
+    height: 24px !important;
+    right: -15px !important;
+    top: -15px !important;
+}
+}
+#fancybox-content, #fancybox-title, #fancybox-outer { 
+background-color: transparent !important; 
+border-color: transparent !important; 
+}
+#fancybox-outer {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+#kmb-header:before {
+display:block;
+content:"";
+width:100%;
+filter:blur(3px);
+}
+.kmb-search { float: right; width:20px; padding-top: 6px; }
+.qode_search_form_3 { 
+  padding-top: 4px !important; 
+  box-shadow: 0px 5px 10px 0px rgba(173,173,173,1); /* 3px 3px 3px 3px rgba(173,173,173,1); */
+}
+@media (max-width: 768px) { 
+ /* .qode_search_form_3 { padding-top: 0 !important; } */
+}
+.qode_search_form_3 input[type="text"] { background-color:#fff !important; border-radius:4px; padding:4px; border: 1px solid #ccc;}
+.qode_search_form_3 .form_holder { padding:2px 0 0 10px !important; }
+.qode_search_form_3 .qode_search_close { font-size:22px; text-align:left; padding-left:10px; }
+@media (min-width: 1000px) { 
+  .kmb-search { margin-right: 20px; } 
+}
+@media (max-width: 1000px) {
+  /* header#kmb-header .menu li a { border-bottom:1px solid #e2e2e2; } */
+  header#kmb-header .menu-item-has-children a { border-bottom: 1px solid #e2e2e2; }
+  header#kmb-header ul ul li a { border-bottom:none !important; }
+}
+#kmb-header a { color: #949494; }
+.search .blog_holder article { margin:0 !important; }
+.qode_search_form_3 { height:40px; }
+header#kmb-header .col-right { width:200px !important; }
+.qode_search_form_2 input, .qode_search_form_2 input:focus, .qode_search_form_3 input, .qode_search_form_3 input:focus { text-transform:none; }
+.qode_search_form_3 .qode_search_close a:hover { color: #3994dc; }
+header#kmb-header { 
+    box-shadow: 0 3px 6px rgba(74,73,73,.16),0 3px 6px rgba(220,213,213,.23); 
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) !important;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.9)  !important;
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#ffffff)  !important;
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#ffffff)"  !important;
+}
+@media (max-width: 1000px) {
+  header#kmb-header .logo { width: 90%; padding-left:40px; }
+  .kmb-search { width:10%; }
+  /* .qode_search_form_3 { height: 34px; } */
+  .qode_search_form_3 .qode_search_close { font-size: 22px; }
+  .qode_search_form_3 .container_inner { background-color:transparent !important; }
+}
+
+/* dropdown menu */
+@media (max-width:1000px) { 
+  #menu-main-menu ul { position: static !important; padding-left: 20px; width:100%; } 
+}
+@media (min-width:999px) {
+  #menu-main-menu ul { 
+  position: absolute !important; 
+  display: none; 
+  -moz-box-shadow: 0px 2px 2px 1px rgba(74,73,73,.16), 0 3px 6px rgba(220,213,213,.23);
+  -webkit-box-shadow: 0px 2px 2px 1px rgba(74,73,73,.16), 0 3px 6px rgba(220,213,213,.23);
+  box-shadow: 0px 2px 2px 1px rgba(74,73,73,.16), 0 3px 6px rgba(220,213,213,.23);
+ }
+}
+li.narrow .second .inner ul { background-color: #fff; }
+li.has_sub:hover ul { display: block !important; }
+#menu-main-menu .has_sub li { display: block !important; }
+
+
+@media only screen and (max-width: 600px) {
+body, p { font-size: 16px; }
+}
+#footericons1 { float: left; }
+#footericons1 div { display: inline-block; padding: 0 10px 0 0; }
+.sprite-request {
+    width: 21px; height: 21px;
+    background: url('https://ryver.com/wp-content/themes/bridge_child/images/ryver_css_sprites.png') -152px -10px;
+}
+.sprite-icon_youtube {
+    width: 31px; height: 31px;
+    background: url('https://ryver.com/wp-content/themes/bridge-child/images/ryver_css_sprites.png') -50px -10px;
+}
+.sprite-icon_twitter {
+    width: 31px; height: 31px;
+    background: url('https://ryver.com/wp-content/themes/bridge-child/images/ryver_css_sprites.png') -101px -10px;
+}
+.sprite-icon_linkedin {
+    width: 31px; height: 31px;
+    background: url('https://ryver.com/wp-content/themes/bridge-child/images/ryver_css_sprites.png') -10px -100px;
+}
+.sprite-icon_facebook {
+    width: 31px; height: 31px;
+    background: url('https://ryver.com/wp-content/themes/bridge-child/images/ryver_css_sprites.png') -61px -100px;
+}
+.sprite-download {
+    width: 17px; height: 11px;
+    background: url('https://ryver.com/wp-content/themes/bridge-child/images/ryver_css_sprites.png') -152px -51px;
+    display:inline-block; padding-right:10px;
+}
+.sprite-divider {
+    width: 20px; height: 70px;
+    background: url('https://ryver.com/wp-content/themes/bridge-child/images/ryver_css_sprites.png') -10px -10px;
+}
+
+@media (max-width: 1000px) {
+header#kmb-header .menu.in {
+-webkit-box-shadow: 0px 5px 10px 0px rgba(173,173,173,1);
+-moz-box-shadow: 0px 5px 10px 0px rgba(173,173,173,1);
+box-shadow: 0px 5px 10px 0px rgba(173,173,173,1);
+}
+}
+
+.mobileonly { display:none !important; }
+@media (max-width:1000px) {
+.mobileonly { display:block !important; }
+.mobileonly.startforfree { text-align:center; }
+.mobileonly.startforfree a { 
+    color: #fff !important;
+    background-color: #8bb73e;
+    width: 140px;
+    padding: 10px !important;
+    margin-bottom: 10px;
+    border: 1px solid #8bb73e;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+ }
+.mobileonly.startforfree a:hover { background-color:#64af3b; }
+}
+
+@media (max-width:1000px) { 
+.wrapper .wrapper_inner .content.content_top_margin { margin-top: 40px !important; }
+}
+
+ .progress_number { margin: 0 2px 0 0; font-weight: 300; }
+.q_progress_bar { margin: 0 0 21px; }
+header_bottom_right_widget_holder { padding: 2px 16px 6px 0px; }
+header .header_inner_left { position: absolute; left: 37px; top: 4px; }
+@media only screen and (min-width: 769px) {
+.header_bottom { padding: 0 66px; }
+}
+.testimonials_c_holder .testimonial_content_inner .testimonial_image_holder { margin-bottom: 21.4px; }
+.testimonial_star_holder { font-size: 14px; }    
+.testimonials_c_holder .testimonial_content_inner .testimonial_rating_holder { margin: 15px 0 12px; }
+.testimonials_c_holder .testimonial_content_inner .testimonial_author {
+    margin-top: 25px; margin-bottom: -9px; }
+.social_share_list_holder ul li i { 
+ font-weight: 400; font-size: 14px; color: #1c1c1c;  }
+.social_share_list_holder ul li i:hover { color: #f44932 !important; }
+.q_accordion_holder { margin: 48px 0 0px;  }
+.q_accordion_holder.accordion .ui-accordion-header{
+ font-weight: 400;
+ font-size: 14px;
+line-height: 57px;
+ text-transform: none;
+letter-spacing: 0px;
+ vertical-align: middle;
+}
+.q_accordion_holder.accordion h6.ui-accordion-header { padding-top: 0px; }
+.qbutton .qode_button_icon_element, .qbutton .qode_button_icon_element {
+    font-size: 17px; position: relative; top: 2px; }
+.qbutton.small .qode_button_icon_element, .qbutton .qode_button_icon_element { margin: 0 0 0 18px; }
+.carousel-inner .active .slider_content .text.one_by_one.no_subtitle.no_separator a.qbutton { padding-right: 32px; }
+.qbutton:hover .qode_button_icon_element { color: #fff !important; }
+@media only screen and (max-width: 768px) {
+   h3 a { font-size: 35px; }
+}
+@media only screen and (max-width: 600px) {
+   h3 a { font-size: 30px; }
+}
+
+/* CUSTOM CHANGES */
+.hideme { display:none; }
+sup {
+    vertical-align: super !important;
+    font-size: smaller !important;
+}
+
+.title h1 { text-transform: none; }
+
+aside .widget h5 { margin-bottom: 14px; text-transform:none; font-size:24px; line-height:28px; font-weight:300; }
+aside .widget a:hover { color:#2b88d9 !important; } 
+.single_tags a { font-size:16px !important; font-weight:normal; }
+.single-post .content .container { background-color: #f2f5fa; padding-top: 20px; }
+#respond textarea { background-color:#fff; }
+#submit_comment { border-width:1px; }
+
+.taskmanager-colright { padding-left:80px; }
+@media screen and (max-width: 767px) {
+  .taskmanager-colright { padding-left:0; }
+}
+
+@media only screen and (min-width: 1400px) {
+  .frontsection1 .section_inner { width:1100px !important; }
+}
+
+#btnlogin, #btnsignup { width:94px; border-radius:2px; text-align:center; float:left; margin-right:5px; font-size:14px; font-weight:700; }
+#btnlogin { background-color:#fff; color:#808080; border:1px solid #b6b6b6; }
+#btnlogin:hover { background-color:#f1f4f6; }
+#btnsignup { background-color:#3994dc; color:#fff; border:1px solid #3994dc; }
+#btnsignup:hover { background-color:#2a7aba; }
+.qbutton.big_large { padding: 0 50px; }
+.gradientbg {
+    background: #f2f5fa; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #f2f5fa); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #f2f5fa); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #f2f5fa); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #f2f5fa); /* Standard syntax */
+}
+.btnDownloadRyver { width:160px; padding: 6px 0; border-radius:4px; text-align:center; font-size:14px; 
+font-weight:700; background-color:#3994dc; color:#fff; border:1px solid #b6b6b6; margin:0 auto; }
+.footer_top {
+    border-bottom: 1px solid #e1e5ec;
+    border-top: 1px solid #e1e5ec;
+    padding: 20px 0;
+}
+#menu-footer-menu li {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipses;
+    -o-text-overflow: ellipses;
+    text-overflow: ellipsis;
+    width: 110px;
+}
+#menu-footer-menu li a {
+    display: inline !important;
+    padding-right: 4%;
+    font-size: 16px;
+    font-weight: 700;
+}
+#menu-footer-menu .current-menu-item a { color:#3994dc !important; }
+nav.mobile_menu ul li a, nav.mobile_menu ul li h3 { color:#2b88d9; }
+#footericons { float:left; }
+#footericons a { padding-right:10px; }
+#footerlinks { float:left; padding:5px 0 0 10px; }
+#footerlinks a { font-size:14px; padding-right:10px; font-weight:700; }
+.footer_bottom_holder { padding: 40px 0; }
+#rightfooterbtns { float:right; }
+.btnfooterwhite, .btnfooterblue { width:160px; padding: 6px 0; border-radius:4px; text-align:center; float:left; margin-right:5px; font-size:14px; font-weight:700; }
+.btnfooterwhite { background-color:#fff; color:#808080; border:1px solid #b6b6b6;  }
+.btnfooterwhite:hover { background-color:#f1f4f6; }
+.btnfooterblue { background-color:#3994dc; color:#fff; border:1px solid #3994dc;  }
+.btnfooterblue:hover { background-color:#2a7aba; }
+.integratebottom {  top:66px; text-align:center; position:relative;  }
+.requestDemo { color:#3994dc; font-size:14px; font-weight:700; }
+.leftpadding { padding-left:60px; }
+
+@media only screen and (max-width: 668px) {
+.footer_bottom_holder .two_columns_50_50>.column1 { width: 100% !important; }
+.footer_bottom_holder .two_columns_50_50>.column2 { width: 100% !important; }
+}
+@media (max-width:767px) {
+  #footericons1 { float:none; }
+  #footericons, #footerlinks, #rightfooterbtns { text-align: center; width: 100%; }
+  .btnfooterwhite, .btnfooterblue { width: 100px; font-size: 10px; }
+  #rightfooterbtns { padding-top: 10px; }
+  #menu-footer-menu li a { font-weight:400;  padding-right: 8%;
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .btnfooterwhite, .btnfooterblue { width: 140px; font-size: 12px; }
+}
+
+#teamcomm { /* float:right; text-align:right; */ }
+.teamcomm1, .teamcomm2 { float:left; }
+.teamcomm1 {
+    padding-top: 110px;
+    left: 20px;
+    position: relative;
+}
+#taskmanager { /* float:left; text-align:left; */ }
+.taskmanager1, .taskmanager2, .taskmanager3 { float:left; }
+.taskmanager2 {
+    padding-top: 150px;
+    left: -40px;
+    position: relative;
+}
+.taskmanager3 { padding-top: 150px; }
+/* #arrowtoright { display:none; } */
+
+/* Features page */
+.hours { font-size: 18px; color: #3994dc; font-weight:700; }
+.page-id-1064 h1 { color:#3a3a3a; font-size:50px; font-weight:300; }
+.page-id-1064 h2 { font-size:32px; font-weight:300; color:#3a3a3a; line-height: 44px; }
+.page-id-1064 p { color:#929292; }
+
+.greyborder { border:1px solid #e1e5ec; border-radius:4px; }
+
+@media screen and (max-width: 767px) {
+   .flexvideoboxes div { display:flex; flex-flow: column; }
+   .flexvideoboxes .vc_col-sm-4 { order: 1; }
+   .flexvideoboxes .vc_col-sm-8 { order: 2; }
+}
+
+/* Pricing page */
+.page-id-796 .vc_col-sm-3, .page-id-796 .vc_col-sm-6 { padding-bottom:10px; }
+.page-id-796  .title { background-color:#3994dc; text-align:center; line-height: 100px; color: #fff; font-weight:bold; }
+.page-id-796 ul  { list-style-image: url('https://ryver.com/wp-content/uploads/2017/07/green-check.png'); padding:5px 0 0 10px; }
+.page-id-796 ul li { font-size:14px; color:#929292; font-weight:700; }
+.page-id-796 .cont1 { text-align:left; }
+.tm-list { min-height:180px; text-align:left; }
+.tm-prices { background-color:#f6f6f6; text-align:center; }
+.tm-prices .price1 { color:#c1bfbf; font-size:15px; font-weight:700; text-decoration: line-through; padding:4px 0; }
+.tm-prices .price2 { color:#3994dc; font-size:35px; font-weight:300; padding:4px 0; }
+.tm-prices .price3 { color:#bdbbbb; font-size:15px; font-weight:300; padding:4px 0; }
+.tm-annually p { color: #3994dc; font-size: 14px; font-weight: 700; padding: 10px 0 0 0; line-height:30px; }
+.tm-title div div { text-align: center; background-color: #3994dc; color: #fff; font-weight: bold; line-height: 100px; }
+.greybg { background-color:#f6f6f6; }
+.teamcomm-col1 { float:left;width:40%;margin-right:0.5%; background-color:#fff; min-height: 110px; }
+.teamcomm-col2 { float:left;width:59.5%; /* background-color:#f6f6f6; */ text-align:center; height:75px; padding-top:30px; font-size:30px; font-weight:300; } 
+.comingsoonbox { background-color: #f6f6f6; text-align: center; line-height: 100px; color: #c5c3c3; font-size: 30px; font-weight:300; }
+@media (min-width:400px) and (max-width:768px) {
+  .tm-title div div { line-height: 16px; height: 60px; padding-top: 30px;  }
+  .page-id-796 ul li { line-height:normal; list-style: disc outside none; margin-left: 10px; }
+  .tm-list { height:240px; } 
+  .tm-prices .price2 { font-size:24px; }
+  .comingsoonbox { font-size:20px; }
+  .tm-prices .price3 { font-size: 12px; }
+  .page-id-796 .qbutton.big_large { padding: 0 7px; }
+}
+@media (max-width:768px) {
+.teamcomm-col1 { float: none; width: 100%;}
+.teamcomm-col2 { float: none; width: 100%; }
+.tm-list { min-height:auto; }
+}
+
+/* New Pricing page */
+.pricingbox .vc_column-inner .wpb_wrapper { background: #fff; border:1px solid #e1e5ec; border-radius:4px; }
+.pricingbox .vc_column-inner .wpb_wrapper .wpb_wrapper { background: none; border:none; }
+.pr-title p { font-size:30px; color:#3c3c3c; font-weight: 300; padding:40px 0; }  
+.pr-cost { text-align: center; background-color: #3994dc; color: #fff; font-weight: bold; padding:20px 0; height:100px; }
+.pr-list { padding:20px 0; text-align:left; }
+.pr-list ul { list-style-image: url('https://ryver.com/wp-content/uploads/2017/08/blue-check.png'); padding:5px 0 0 10px; }
+.pr-list ul li { font-size:14px; }
+.pr-cost .costTitle { color:#fff; }
+.pr-cost .cost1 { text-decoration: line-through; }
+.pr-cost .cost2 { color:#fff; font-size:60px; font-weight:300; padding:15px 0; }
+.pr-cost .cost3 { color:#24669a; font-size:15px; font-style:italic; font-weight:700; }
+.pricingboxtitle1 { background-color:#fff; padding:20px 0; }
+.pricingboxtitle { background-color:#fff; padding:20px 0; border:1px solid #e1e5ec; border-radius:4px; }
+.pricingbox.two .vc_column-inner { padding-right:0;  }
+.pricingbox.three .vc_column-inner, .pricingbox.four .vc_column-inner { padding-left:0; padding-right:0; }
+.pricingboxtitle p { font-size:20px; color:#3c3c3c; font-weight: 300;  }
+.plus-sign p { text-align:center; font-size:80px; font-weight:700; padding-top:120px; }
+.adTaskManagerBox .vc_column-inner {
+    margin-left: 0;
+    padding-right: 0;
+}
+.pr-list p { padding:0 0 0 10px; margin:0; }
+/* #pr-comingsoon { top:-25px; } */
+@media (max-width:1024px) {
+.pricingbox.vc_col-sm-3 { margin:10px 0; }
+}
+@media (min-width: 768px) and (max-width:1024px) {
+.pricingbox.vc_col-sm-3 { width: 50%; }
+}
+@media (max-width: 767px) {
+.plus-sign p { padding: 10px 0 30px 0; }
+}
+
+
+/* Downloads page */
+.btnDownload { background-color:#3994dc; color:#fff; border:1px solid #b6b6b6; margin:0 auto;
+width:160px; padding: 6px 0; border-radius:4px; text-align:center; font-size:14px; font-weight:700; }
+.btnDownload:hover { background-color:#2a7aba; }
+.bitversion { font-size:10px; font-weight:700; text-align:center; padding-top:5px; }
+.bitversion a { color:#3994dc; }
+.whitebox { background-color:#fff; min-height:250px; padding-top:30px; border-bottom:2px solid #3994dc; }
+
+.downloadBtn, .blueBtn { color: #fff; font-weight: bold; background-color: #3994dc; border: 1px solid #3994dc; border-radius: 4px; 
+    width:160px; display:block; text-align:center; padding: 6px 0; margin:0 auto; font-size:14px; }
+ .downloadBtn i:before { content: url(https://ryver.com/wp-content/uploads/2017/07/download.png); }
+ .downloadBtn i { font-style:normal; font-size:14px; font-weight:700;  }
+.downloadBtn:hover, .blueBtn:hover { background-color:#2a7aba; color:#fff; }
+
+/* Ryver Raves page */
+.ryverTestimonial { background-color:#fff; border-bottom:2px solid #3994dc; padding:10px; margin-top:20px; }
+
+/* Terms of Service page */
+.page-id-21 h3 { font-size:38px; }
+
+@media ( min-width: 991px ) {
+.scrolled nav.main_menu { line-height: 60px; }
+nav.main_menu { line-height: 80px; left: 0 !important; }
+nav.main_menu > ul > li > a { line-height: normal !important; }
+header .container_inner .header_inner_left { width: 130px; position: static !important; }
+.logo_wrapper { min-width: 130px; } 
+}
+
+@media ( min-width: 1000px ) {
+.q_logo img { transform-origin: 0; transform: scale(.5); }
+}
+
+@media ( max-width: 999px ) {
+.q_logo img { height: auto !important; padding-top: 25px !important; }
+}
+
+.q_logo a { visibility: visible !important; }
+
+@media (max-width: 1000px) {
+header#kmb-header { position: fixed !important; }
+}
+
+.requestDemo img {
+    margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+.qbutton.big_large, .qbutton.big_large_full_width { font-size: 22px; }
+}

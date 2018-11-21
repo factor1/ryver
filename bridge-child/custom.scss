@@ -1,0 +1,184 @@
+header#kmb-header {
+
+	box-sizing: border-box;;
+	height: 75px;
+	* {
+		box-sizing: border-box;
+	}
+
+	position: fixed;
+	width: 100%;
+	background-color: white;
+
+	.container_inner {
+		height: 100%;
+	}
+
+	.vertical-align {
+		display: table;
+		width: 100%;
+		height: 100%;
+		> div {
+			display: table-cell;
+			vertical-align: middle;
+			> .clearfix {
+				padding-top: 7px;
+			}
+		}
+	}
+
+	.toggle-mobile {
+		display: none;
+		cursor: pointer;
+		position: absolute;
+		left: 35px;
+		top: 20px;
+
+	}
+
+	.user-actions {
+		padding-top: 6px;
+	}
+
+	&.kmb-sticky {
+		box-shadow: 0 3px 6px rgba(74, 73, 73, 0.16), 0 3px 6px rgba(220, 213, 213, 0.23);
+	}
+
+	.col-left {
+		float: left;
+		width: 160px;
+	}
+
+	.col-right {
+		float: right;
+		width: 210px;
+	}
+
+	.col-mid {
+		width: auto;
+		overflow: hidden;
+	}
+
+	.logo {
+		a {
+			display: block;
+		}
+	}
+
+	.menu {
+		padding: 5px 0;
+		li {
+			display: inline-block;
+			&.current-menu-item {
+				a {
+					color: #2b88d9;
+				}
+			}
+			a {
+				padding: 0 15px;
+				color: #8a8a8a;
+				font-size: 16px;
+				font-weight: 700;
+				letter-spacing: 0.2px;
+				transition: color .2s ease-in-out;
+				&:hover {
+					color: #2b88d9;
+				}
+			}
+		}
+	}
+
+}
+
+.wrapper {
+	.content.content_top_margin {
+		margin-top: 75px !important;
+	}
+}
+
+@media ( min-width: 1001px ) and ( max-width: 1199px ) {
+
+	header#kmb-header {
+		.menu {
+			li {
+				a {
+					padding: 0 10px;
+				}
+			}
+		}
+	}
+
+}
+
+@media ( max-width: 1000px ) {
+
+	.wrapper {
+		.content.content_top_margin {
+			margin-top: 40px !important;
+		}
+	}
+
+	header#kmb-header {
+		padding-bottom: 0;
+		.container_inner {
+			width: 100%;
+			padding: 0;
+			background-color: white;
+			position: relative;
+		}
+
+		.vertical-align > div > .clearfix {
+			padding-top: 10px;
+		}
+
+		.toggle-mobile {
+			display: block;
+			z-index: 1;
+			span {
+				color: #3c3c3c;
+				font-size: 40px;
+			}
+		}
+		.menu {
+			width: 100%;
+			max-height: 0;
+			background-color: white;
+			position: absolute;
+			top: 75px;
+			padding: 0;
+			> ul {
+				padding: 0 35px;
+			}
+			&.in {
+				transition: max-height .3s ease-in-out;
+				max-height: 1000px;
+			}
+
+			li {
+				display: block;
+				border-bottom: 1px solid #e2e2e2;
+				&:last-child {
+					border-bottom: none;
+				}
+				a {
+					display: block;
+					padding: 10px 0;
+					color: #2b88d9;
+					&:hover {
+						color: #3c3c3c;
+					}
+				}
+			}
+		}
+		.logo {
+			width: 100%;
+			text-align: center;
+			a {
+				display: inline-block;
+			}
+		}
+		.user-actions {
+			display: none;
+		}
+	}
+}
