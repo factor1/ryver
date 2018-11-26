@@ -1,0 +1,13 @@
+.features-hero {
+  padding: 75px 0 25%; }
+  .features-hero h1 {
+    margin-bottom: 50px;
+    color: #fff; }
+  .features-hero .qbutton {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+    background: #7fe34a;
+    background: linear-gradient(#7fe34a, #33b700);
+    color: #fff;
+    font-weight: 700; }

@@ -2,6 +2,6 @@
 
 get_header();
 
-echo 'features page';
+get_template_part('parts/hero');
 
 get_footer(); ?>

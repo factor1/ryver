@@ -134,3 +134,5 @@ function defer_parsing_of_js ( $url ) {
 }
 add_filter( 'clean_url', 'defer_parsing_of_js', 11, 1 );
 */
+
+add_image_size('features_hero', 1400, 1600, array('center', 'center') );
