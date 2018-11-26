@@ -33,40 +33,39 @@ if( have_rows('slider_sections') ) :
       $i = 1;
       $t = 1; ?>
 
-        <div class="g-row g-row--align-items-center<?php echo $rowClass; ?>">
-          <div class="g-col-5 g-sm-col-8 sm-col-centered">
+      <div class="g-row g-row--align-items-center<?php echo $rowClass; ?>">
+        <div class="g-col-5 g-sm-col-8 sm-col-centered">
 
-            <?php while( have_rows('slides') ) : the_row();
-              $img = wp_get_attachment_image_src(get_sub_field('image'), 'features_slider');
-              $icon = wp_get_attachment_image_src(get_sub_field('headline_icon'), 'features_icon');
-              $activeClass = $i == 1 ? ' class="active"' : ''; ?>
+          <?php while( have_rows('slides') ) : the_row();
+            $img = wp_get_attachment_image_src(get_sub_field('image'), 'features_slider');
+            $icon = wp_get_attachment_image_src(get_sub_field('headline_icon'), 'features_icon');
+            $activeClass = $i == 1 ? ' class="active"' : ''; ?>
 
-              <img src="<?php echo $img[0]; ?>"<?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $i; ?>" alt="<?php echo $headline; ?> image">
+            <img src="<?php echo $img[0]; ?>"<?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $i; ?>" alt="<?php echo $headline; ?> image">
 
-            <?php $i++; endwhile; ?>
+          <?php $i++; endwhile; ?>
 
-          </div>
-
-          <div class="g-col-6">
-
-            <?php while( have_rows('slides') ) : the_row();
-              $headline = get_sub_field('headline');
-              $content = get_sub_field('content');
-              $activeClass = $t == 1 ? ' class="active"' : ''; ?>
-
-              <div<?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $t; ?>">
-                <h2 class="feature-slider__headline"><img src="<?php echo $icon[0]; ?>" alt="Icon"> <?php echo $headline; ?></h2>
-
-                <?php echo $content; ?>
-              </div>
-
-            <?php $t++; endwhile; ?>
-
-          </div>
         </div>
 
-      <?php //$i++;
-    endif; ?>
+        <div class="g-col-6">
+
+          <?php while( have_rows('slides') ) : the_row();
+            $headline = get_sub_field('headline');
+            $content = get_sub_field('content');
+            $activeClass = $t == 1 ? ' class="active"' : ''; ?>
+
+            <div<?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $t; ?>">
+              <h2 class="feature-slider__headline"><img src="<?php echo $icon[0]; ?>" alt="Icon"> <?php echo $headline; ?></h2>
+
+              <?php echo $content; ?>
+            </div>
+
+          <?php $t++; endwhile; ?>
+
+        </div>
+      </div>
+
+    <?php endif; ?>
 
   </section>
 
