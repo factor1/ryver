@@ -116,6 +116,24 @@
   }
 }
 
+.features-columns {
+  padding: 100px 0;
+  background-color: #f1f4f6;
+
+  h1 {
+    margin-bottom: 60px;
+  }
+
+  .g-col-4 > div {
+    padding: 0 20px;
+  }
+
+  img {
+    width: 80px;
+    margin-bottom: 25px;
+  }
+}
+
 // Media Queries
 @media screen and (max-width: 767px) {
   .feature-slider {
@@ -149,6 +167,23 @@
 
     h2 {
       font-size: 24px;
+    }
+  }
+
+  .features-columns {
+    padding: 50px 0;
+
+    h1 {
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    .g-col-4 {
+      margin-bottom: 30px;
     }
   }
 }

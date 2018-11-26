@@ -72,6 +72,17 @@
     background: #7fe34a;
     background: linear-gradient(#7fe34a, #33b700); }
 
+.features-columns {
+  padding: 100px 0;
+  background-color: #f1f4f6; }
+  .features-columns h1 {
+    margin-bottom: 60px; }
+  .features-columns .g-col-4 > div {
+    padding: 0 20px; }
+  .features-columns img {
+    width: 80px;
+    margin-bottom: 25px; }
+
 @media screen and (max-width: 767px) {
   .feature-slider {
     padding-top: 40px; }
@@ -90,4 +101,13 @@
       margin-bottom: 25px;
       font-size: 30px; }
     .features-checklist h2 {
-      font-size: 24px; } }
+      font-size: 24px; }
+  .features-columns {
+    padding: 50px 0; }
+    .features-columns h1 {
+      margin-bottom: 25px;
+      font-size: 30px; }
+    .features-columns h2 {
+      font-size: 24px; }
+    .features-columns .g-col-4 {
+      margin-bottom: 30px; } }

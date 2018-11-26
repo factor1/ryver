@@ -8,4 +8,6 @@ get_template_part('parts/feature-slider');
 
 get_template_part('parts/feature-checklist');
 
+get_template_part('parts/feature-columns');
+
 get_footer(); ?>

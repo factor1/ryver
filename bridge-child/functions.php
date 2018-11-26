@@ -140,3 +140,4 @@ add_image_size('features_hero', 1400, 1600, array('center', 'center') );
 add_image_size('features_slider', 650, 540, false );
 add_image_size('features_icon', 80, 50, false );
 add_image_size('features_checklist', 1400, 540, array('center', 'center') );
+add_image_size('column_icon', 80, 80, false );
