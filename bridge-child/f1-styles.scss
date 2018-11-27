@@ -135,6 +135,36 @@
 }
 
 // Media Queries
+@media screen and (max-width: 1023px) {
+  .page-template-features {
+    .section3-desk {
+      background: none !important;
+      padding-bottom: 100px !important;
+
+      .vc_col-sm-6 {
+        float: none;
+        width: auto;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center !important;
+      }
+
+      .wpb_wrapper > div {
+        text-align: center !important;
+      }
+
+      .requestDemo {
+        display: block;
+        margin: 30px auto 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 767px) {
   .feature-slider {
     padding-top: 40px;
