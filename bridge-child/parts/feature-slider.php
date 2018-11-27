@@ -38,7 +38,6 @@ if( have_rows('slider_sections') ) :
 
           <?php while( have_rows('slides') ) : the_row();
             $img = wp_get_attachment_image_src(get_sub_field('image'), 'features_slider');
-            $icon = wp_get_attachment_image_src(get_sub_field('headline_icon'), 'features_icon');
             $activeClass = $i == 1 ? ' class="active"' : ''; ?>
 
             <img src="<?php echo $img[0]; ?>"<?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $i; ?>" alt="<?php echo $headline; ?> image">
@@ -50,6 +49,7 @@ if( have_rows('slider_sections') ) :
         <div class="g-col-6">
 
           <?php while( have_rows('slides') ) : the_row();
+            $icon = wp_get_attachment_image_src(get_sub_field('headline_icon'), 'features_icon');
             $headline = get_sub_field('headline');
             $content = get_sub_field('content');
             $activeClass = $t == 1 ? ' class="active"' : ''; ?>
