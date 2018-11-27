@@ -1,0 +1,144 @@
+.features-hero {
+  padding: 75px 0 25%; }
+  .features-hero h1 {
+    margin-bottom: 50px;
+    color: #fff; }
+  .features-hero .qbutton {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+    background: #7fe34a;
+    background: linear-gradient(#7fe34a, #33b700);
+    color: #fff;
+    font-weight: 700; }
+
+.feature-slider {
+  padding: 80px 0 40px; }
+  .feature-slider h1 {
+    margin-bottom: 25px; }
+  .feature-slider .g-col-12 {
+    margin-bottom: 70px; }
+  .feature-slider .g-col-5 img {
+    display: none; }
+    .feature-slider .g-col-5 img.active {
+      display: inline; }
+  .feature-slider .g-col-6 {
+    display: flex;
+    flex-wrap: wrap; }
+    .feature-slider .g-col-6 > div {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      border-left: 1px solid #e1e5ec;
+      transition: all .4s ease; }
+      .feature-slider .g-col-6 > div.active {
+        padding-left: 29px;
+        border-left: 2px solid #0288d1; }
+  .feature-slider__headline {
+    font-size: 42px; }
+    .feature-slider__headline img {
+      margin-right: 10px;
+      width: 40px; }
+
+.features-checklist {
+  padding: 90px 0; }
+  .features-checklist h1 {
+    margin-bottom: 50px;
+    color: #fff; }
+  .features-checklist h2 {
+    color: #fff; }
+  .features-checklist .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 30px;
+    border-radius: 4px;
+    background-color: #f1f4f6; }
+    .features-checklist .list > div {
+      flex: 0 0 10%;
+      margin: 30px 0;
+      padding: 0 20px;
+      border-left: 1px solid #e1e5ec;
+      border-right: 1px solid #e1e5ec; }
+      .features-checklist .list > div:first-of-type {
+        border-left: 1px solid transparent; }
+      .features-checklist .list > div:last-of-type {
+        border-right: 1px solid transparent; }
+  .features-checklist i {
+    padding: 5px;
+    border-radius: 50%;
+    color: #fff;
+    background: #7fe34a;
+    background: linear-gradient(#7fe34a, #33b700); }
+
+.features-columns {
+  padding: 100px 0;
+  background-color: #f1f4f6; }
+  .features-columns h1 {
+    margin-bottom: 60px; }
+  .features-columns .g-col-4 > div {
+    padding: 0 20px; }
+  .features-columns img {
+    width: 80px;
+    margin-bottom: 25px; }
+
+.page-template-features .section3-desk #btnSignupIntegrate,
+#btnSignupIntegrate,
+#btnSignup,
+#btnSignUp a:not(.requestDemo),
+#btnSignUp1 a:not(.requestDemo),
+#btnsignup,
+#btnSignUpCenter .qbutton {
+  background: #7fe34a;
+  background: linear-gradient(#7fe34a, #33b700); }
+
+#btnsignup {
+  border: none !important; }
+
+@media screen and (max-width: 1023px) {
+  .page-template-features .section3-desk {
+    background: none !important;
+    padding-bottom: 100px !important; }
+    .page-template-features .section3-desk .vc_col-sm-6 {
+      float: none;
+      width: auto;
+      max-width: 600px;
+      margin: 0 auto; }
+    .page-template-features .section3-desk h1 {
+      text-align: center !important; }
+    .page-template-features .section3-desk .wpb_wrapper > div {
+      text-align: center !important; }
+    .page-template-features .section3-desk .requestDemo {
+      display: block;
+      margin: 30px auto 0;
+      text-align: center; } }
+
+@media screen and (max-width: 767px) {
+  .feature-slider {
+    padding-top: 40px; }
+    .feature-slider h1 {
+      font-size: 30px; }
+    .feature-slider h2 {
+      font-size: 24px; }
+    .feature-slider .g-col-5 {
+      order: 2; }
+    .feature-slider .g-col-6 {
+      order: 1;
+      margin-bottom: 30px; }
+  .features-checklist {
+    padding: 40px 0; }
+    .features-checklist h1 {
+      margin-bottom: 25px;
+      font-size: 30px; }
+    .features-checklist h2 {
+      font-size: 24px; }
+  .features-columns {
+    padding: 50px 0; }
+    .features-columns h1 {
+      margin-bottom: 25px;
+      font-size: 30px; }
+    .features-columns h2 {
+      font-size: 24px; }
+    .features-columns .g-col-4 {
+      margin-bottom: 30px; } }
