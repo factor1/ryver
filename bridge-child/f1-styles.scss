@@ -134,6 +134,21 @@
   }
 }
 
+.page-template-features .section3-desk #btnSignupIntegrate,
+#btnSignupIntegrate,
+#btnSignup,
+#btnSignUp a:not(.requestDemo),
+#btnSignUp1 a:not(.requestDemo),
+#btnsignup,
+#btnSignUpCenter .qbutton {
+  background: #7fe34a;
+  background: linear-gradient(#7fe34a, #33b700);
+}
+
+#btnsignup {
+  border: none !important;
+}
+
 // Media Queries
 @media screen and (max-width: 1023px) {
   .page-template-features {
