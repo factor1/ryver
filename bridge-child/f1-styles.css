@@ -102,10 +102,20 @@
 #btnSignUpCenter .qbutton {
   background: #7fe34a;
   background: linear-gradient(#33b700, #7fe34a); }
+  .page-template-features .section3-desk #btnSignupIntegrate:hover,
+  #btnSignupIntegrate:hover,
+  #btnSignup:hover,
+  #btnSignUp a:not(.requestDemo):hover,
+  #btnSignUp1 a:not(.requestDemo):hover,
+  #btnsignup:hover,
+  #btnSignUpCenter .qbutton:hover {
+    background: linear-gradient(#51CC0A, #9BE970); }
 
 #btnsignup {
   border: none !important;
   padding: 5px; }
+  #btnsignup:hover {
+    background: linear-gradient(#51CC0A, #9BE970); }
 
 #btnlogin {
   padding: 4px; }
