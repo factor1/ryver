@@ -43,7 +43,9 @@
         padding-left: 29px;
         border-left: 4px solid #0288d1; }
   .feature-slider__headline {
-    font-size: 42px; }
+    font-size: 42px;
+    display: flex;
+    align-items: center; }
     .feature-slider__headline img {
       margin-right: 10px;
       width: 40px; }
