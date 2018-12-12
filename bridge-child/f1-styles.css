@@ -7,10 +7,18 @@
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 4px;
-    background: #7fe34a;
-    background: linear-gradient(#7fe34a, #33b700);
+    background: #33b700;
+    background: linear-gradient(#33b700, #7fe34a);
     color: #fff;
     font-weight: 700; }
+    .features-hero .qbutton:hover {
+      padding-left: 50px;
+      padding-right: 50px;
+      border-radius: 4px;
+      background: #51CC0A;
+      background: linear-gradient(#51CC0A, #9BE970);
+      color: #fff;
+      font-weight: 700; }
 
 .feature-slider {
   padding: 80px 0 40px; }
@@ -29,11 +37,11 @@
       padding-top: 10px;
       padding-bottom: 10px;
       padding-left: 30px;
-      border-left: 1px solid #e1e5ec;
+      border-left: 3px solid #e1e5ec;
       transition: all .4s ease; }
       .feature-slider .g-col-6 > div.active {
         padding-left: 29px;
-        border-left: 2px solid #0288d1; }
+        border-left: 4px solid #0288d1; }
   .feature-slider__headline {
     font-size: 42px; }
     .feature-slider__headline img {
@@ -91,10 +99,14 @@
 #btnsignup,
 #btnSignUpCenter .qbutton {
   background: #7fe34a;
-  background: linear-gradient(#7fe34a, #33b700); }
+  background: linear-gradient(#33b700, #7fe34a); }
 
 #btnsignup {
-  border: none !important; }
+  border: none !important;
+  padding: 5px; }
+
+#btnlogin {
+  padding: 4px; }
 
 @media screen and (max-width: 1023px) {
   .page-template-features .section3-desk {

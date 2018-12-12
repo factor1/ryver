@@ -18,7 +18,11 @@
   }
 
   .qbutton {
-    @include button(#7fe34a, #33b700);
+    @include button(#33b700, #7fe34a);
+
+    &:hover {
+      @include button(#51CC0A, #9BE970);
+    }
   }
 }
 
@@ -49,12 +53,12 @@
       padding-top: 10px;
       padding-bottom: 10px;
       padding-left: 30px;
-      border-left: 1px solid #e1e5ec;
+      border-left: 3px solid #e1e5ec;
       transition: all .4s ease;
 
       &.active {
         padding-left: 29px;
-        border-left: 2px solid #0288d1;
+        border-left: 4px solid #0288d1;
       }
     }
   }
@@ -142,11 +146,16 @@
 #btnsignup,
 #btnSignUpCenter .qbutton {
   background: #7fe34a;
-  background: linear-gradient(#7fe34a, #33b700);
+  background: linear-gradient(#33b700, #7fe34a);
 }
 
 #btnsignup {
   border: none !important;
+  padding: 5px;
+}
+
+#btnlogin {
+  padding: 4px;
 }
 
 // Media Queries
