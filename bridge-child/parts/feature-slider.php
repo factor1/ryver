@@ -57,7 +57,7 @@ if( have_rows('slider_sections') ) :
             <div<?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $t; ?>">
               <h2 class="feature-slider__headline"><img src="<?php echo $icon[0]; ?>" alt="Icon"> <?php echo $headline; ?></h2>
 
-              <?php echo $content; ?>
+              <div style="margin-left:52px;"><?php echo $content; ?></div>
             </div>
 
           <?php $t++; endwhile; ?>
