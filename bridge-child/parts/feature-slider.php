@@ -54,7 +54,7 @@ if( have_rows('slider_sections') ) :
             $content = get_sub_field('content');
             $activeClass = $t == 1 ? ' class="active"' : ''; ?>
 
-            <div<?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $t; ?>">
+            <div <?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $t; ?>">
               <h2 class="feature-slider__headline"><img src="<?php echo $icon[0]; ?>" alt="Icon"> <?php echo $headline; ?></h2>
 
               <div style="margin-left:52px;"><?php echo $content; ?></div>
