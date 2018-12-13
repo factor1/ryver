@@ -210,24 +210,28 @@
     }
 
     .g-col-5 {
+      order: 3;
+    }
+
+    .g-col-10 {
       order: 2;
     }
 
     .g-col-6 {
       order: 1;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       flex-wrap: nowrap;
+      justify-content: center;
 
       > div {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding:10px 25px;
         // padding-left: 30px;
         border-bottom: 3px solid #e1e5ec;
         border-left: none;
         transition: all .4s ease;
 
         &.active {
-          // padding-left: 29px;
+          padding: 10px 25px;
           border-bottom: 4px solid #0288d1;
           border-left: none;
         }
