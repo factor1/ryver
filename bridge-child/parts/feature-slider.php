@@ -84,7 +84,7 @@ if( have_rows('slider_sections') ) :
       $i = 1;
       $t = 1; ?>
 
-      <div class="g-row g-row--align-items-center<?php echo $rowClass; ?>">
+      <div class="g-row g-row--align-items-center">
         <div class="g-col-5 g-sm-col-8 sm-col-centered">
 
           <?php while( have_rows('slides') ) : the_row();
@@ -119,12 +119,9 @@ if( have_rows('slider_sections') ) :
         </div>
 
         <div class="g-col-10 g-col-centered text-center">
-          <div id="mobile-content__info">
+          <div class="mobile-content__info">
           </div>
         </div>
-      </div>
-
-      <div class="g-row g-row--justify-content-center mobile-content-row">
 
       </div>
 

@@ -15,7 +15,7 @@ jQuery( document ).ready(function( $ ) {
 
 	$(".package-container").on('click', function(){
 			var info = $(this).find('.content-mobile').html();
-			$("#mobile-content__info").show(function(){
+			$(".mobile-content__info").show(function(){
 				$(this).html(info)
 			});
 	});
