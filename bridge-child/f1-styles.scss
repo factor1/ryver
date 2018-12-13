@@ -219,19 +219,20 @@
 
     .g-col-6 {
       order: 1;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       flex-wrap: nowrap;
       justify-content: center;
 
       > div {
-        padding:10px 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         // padding-left: 30px;
         border-bottom: 3px solid #e1e5ec;
         border-left: none;
         transition: all .4s ease;
 
         &.active {
-          padding: 10px 25px;
+          // padding-left: 29px;
           border-bottom: 4px solid #0288d1;
           border-left: none;
         }
