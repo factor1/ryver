@@ -106,16 +106,26 @@ if( have_rows('slider_sections') ) :
             $activeClass = $t == 1 ? ' class="active"' : ''; ?>
 
             <div <?php echo $activeClass; ?> id="slide--<?php echo $x . '-' . $t; ?>">
+            <div class="package-container">
               <h2 class="feature-slider__headline"><img src="<?php echo $icon[0]; ?>" alt="Icon"> <?php echo $headline; ?></h2>
 
-              <div class="content-mobile">
+              <div style="display:none" class="content-mobile">
                 <?php echo $content; ?>
               </div>
             </div>
-
+          </div>
           <?php $t++; endwhile; ?>
 
         </div>
+
+        <div class="g-col-10 g-col-centered text-center">
+          <div id="mobile-content__info">
+          </div>
+        </div>
+      </div>
+
+      <div class="g-row g-row--justify-content-center mobile-content-row">
+
       </div>
 
     <?php endif; ?>

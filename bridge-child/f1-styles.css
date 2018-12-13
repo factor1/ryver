@@ -146,18 +146,21 @@
     .feature-slider h2 {
       font-size: 24px; }
     .feature-slider .g-col-5 {
+      order: 3; }
+    .feature-slider .g-col-10 {
       order: 2; }
     .feature-slider .g-col-6 {
       order: 1;
-      margin-bottom: 30px;
-      flex-wrap: nowrap; }
+      margin-bottom: 20px;
+      flex-wrap: nowrap;
+      justify-content: center; }
       .feature-slider .g-col-6 > div {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 25px;
         border-bottom: 3px solid #e1e5ec;
         border-left: none;
         transition: all .4s ease; }
         .feature-slider .g-col-6 > div.active {
+          padding: 10px 25px;
           border-bottom: 4px solid #0288d1;
           border-left: none; }
     .feature-slider__headline {

@@ -10,4 +10,13 @@ jQuery( document ).ready(function( $ ) {
     $(this).parents('.g-col-6').children('div').removeClass('active');
     $(this).addClass('active');
   });
+
+  //Mobile Content
+
+	$(".package-container").on('click', function(){
+			var info = $(this).find('.content-mobile').html();
+			$("#mobile-content__info").show(function(){
+				$(this).html(info)
+			});
+	});
 });
