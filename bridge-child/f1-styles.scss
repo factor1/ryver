@@ -216,6 +216,28 @@
     .g-col-6 {
       order: 1;
       margin-bottom: 30px;
+      flex-wrap: nowrap;
+
+      > div {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        // padding-left: 30px;
+        border-bottom: 3px solid #e1e5ec;
+        border-left: none;
+        transition: all .4s ease;
+
+        &.active {
+          // padding-left: 29px;
+          border-bottom: 4px solid #0288d1;
+          border-left: none;
+        }
+      }
+    }
+
+    &__headline {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
   }
 
