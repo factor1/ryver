@@ -12,6 +12,18 @@ jQuery( document ).ready(function( $ ) {
   });
 
   //Mobile Content
+  function mobile_content_load() {
+    if ($(window).width() <= 767) {
+
+    var content = $('.package-container:first-of-type .content-mobile').html();
+     $('.mobile-content__info').html(content);
+    }
+  }
+
+  mobile_content_load();
+    $(window).resize(function() {
+      mobile_content_load();
+  });
 
 	$(".package-container").on('click', function(){
 			var info = $(this).find('.content-mobile').html();
