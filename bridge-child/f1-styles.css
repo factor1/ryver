@@ -26,6 +26,8 @@
     margin-bottom: 25px; }
   .feature-slider .g-col-12 {
     margin-bottom: 70px; }
+  .feature-slider .content-mobile {
+    display: none; }
   .feature-slider .g-col-5 img {
     display: none; }
     .feature-slider .g-col-5 img.active {

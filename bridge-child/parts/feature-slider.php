@@ -109,7 +109,7 @@ if( have_rows('slider_sections') ) :
             <div class="package-container">
               <h2 class="feature-slider__headline"><img src="<?php echo $icon[0]; ?>" alt="Icon"> <?php echo $headline; ?></h2>
 
-              <div style="display:none" class="content-mobile">
+              <div class="content-mobile">
                 <?php echo $content; ?>
               </div>
             </div>
