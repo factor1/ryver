@@ -18,10 +18,10 @@
   }
 
   .qbutton {
-    @include button(#33b700, #7fe34a);
+    @include button(#7fe34a, #33b700);
 
     &:hover {
-      @include button(#51CC0A, #9BE970);
+      @include button(#9BE970, #51CC0A);
     }
   }
 }
