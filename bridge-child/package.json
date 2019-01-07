@@ -24,5 +24,6 @@
     "install": "^0.12.2",
     "npm": "^6.5.0",
     "scripts": "^0.1.0"
-  }
+  },
+  "devDependencies": {}
 }
