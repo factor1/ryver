@@ -62,6 +62,8 @@
       transition: all .4s ease; }
   .feature-slider__content {
     margin-left: 52px; }
+    .feature-slider__content p {
+      color: #90a4ae; }
 
 .features-checklist {
   padding: 90px 0; }
