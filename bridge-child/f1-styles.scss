@@ -57,12 +57,20 @@
       padding-top: 10px;
       padding-bottom: 10px;
       padding-left: 30px;
-      border-left: 3px solid #e1e5ec;
+      border-left: 1.5px solid #e1e5ec;
       transition: all .4s ease;
 
       &.active {
         padding-left: 29px;
-        border-left: 4px solid #0288d1;
+        border-left: 2px solid #0288d1;
+
+        h2 {
+          color: #0288d1;
+        }
+
+        p {
+          color: #78909c;
+        }
 
         .feature-slider__headline img {
           filter: grayscale(0);
@@ -75,6 +83,7 @@
     font-size: 42px;
     display: flex;
     align-items: center;
+    color: #90a4ae;
 
     img {
       margin-right: 10px;
@@ -82,6 +91,10 @@
       filter: grayscale(100%);
       transition: all .4s ease;
     }
+  }
+
+  &__content {
+    margin-left: 52px;
   }
 }
 
