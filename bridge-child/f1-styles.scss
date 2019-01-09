@@ -195,6 +195,13 @@
 }
 
 // Media Queries
+
+@media screen and (max-width: 1039px) {
+  .features-checklist .list>div:last-of-type {
+    border-left: 1px solid transparent;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .page-template-features {
     .section3-desk {
@@ -222,6 +229,16 @@
         text-align: center;
       }
     }
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .features-checklist .list>div:last-of-type {
+    border-left: 1px solid #e1e5ec;
+    border-right: 1px solid #e1e5ec;
+  }
+  .features-checklist .list>div:nth-of-type(5) {
+    border-right: 1px solid transparent;
   }
 }
 
@@ -286,7 +303,6 @@
       font-size: 24px;
     }
   }
-
   .features-columns {
     padding: 50px 0;
 
