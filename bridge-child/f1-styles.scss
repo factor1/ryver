@@ -88,8 +88,7 @@
     img {
       margin-right: 10px;
       width: 40px;
-      height: 24px;
-      filter: grayscale(100%);
+      filter: grayscale(80%) brightness(125%);
       transition: all .4s ease;
     }
   }
@@ -229,6 +228,12 @@
         text-align: center;
       }
     }
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .features-checklist .list>div:nth-of-type(6) {
+    border-right: 1px solid transparent;
   }
 }
 
