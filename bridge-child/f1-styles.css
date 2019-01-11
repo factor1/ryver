@@ -141,7 +141,7 @@
 
 @media screen and (max-width: 1039px) {
   .features-checklist .list > div:last-of-type {
-    border-left: 1px solid transparent; } }
+    border-left: none; } }
 
 @media screen and (max-width: 1023px) {
   .page-template-features .section3-desk {
@@ -166,7 +166,7 @@
     border-left: 1px solid #e1e5ec;
     border-right: 1px solid #e1e5ec; }
   .features-checklist .list > div:nth-of-type(5) {
-    border-right: 1px solid transparent; } }
+    border-right: none; } }
 
 @media screen and (max-width: 767px) {
   .feature-slider {
@@ -175,6 +175,8 @@
       font-size: 30px; }
     .feature-slider h2 {
       font-size: 24px; }
+    .feature-slider .g-col-12 {
+      margin-bottom: 50px; }
     .feature-slider .g-col-5 {
       order: 3; }
     .feature-slider .g-col-10 {

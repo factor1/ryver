@@ -73,7 +73,7 @@ if( have_rows('slider_sections') ) :
     <div class="g-row">
       <div class="g-col-12 text-center">
         <?php if( $headline ) : ?>
-          <h1><?php echo $headline; ?></h1>
+          <!-- <h1><?php //echo $headline; ?></h1> -->
         <?php endif; ?>
 
         <h2><strong><em><?php echo $subHeadline; ?></em></strong></h2>
