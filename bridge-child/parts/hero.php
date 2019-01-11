@@ -13,7 +13,7 @@ $btn = get_field('features_hero_button'); ?>
     <div class="g-col-12 text-center">
       <h1><?php echo $headline; ?></h1>
 
-      <a href="<?php echo esc_url($btn['url']); ?>" class="qbutton big_large" role="link" title="<?php echo $btn['title']; ?>">
+      <a href="<?php echo esc_url($btn['url']); ?>" class="qbutton big_large-f1" role="link" title="<?php echo $btn['title']; ?>">
         <?php echo $btn['title']; ?>
       </a>
     </div>
