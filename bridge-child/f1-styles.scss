@@ -24,6 +24,12 @@
       @include button(#9BE970, #51CC0A);
     }
   }
+
+  .big_large-f1 {
+    height: 58px;
+    line-height: 58px;
+    font-size: 20px;
+  }
 }
 
 .feature-slider {
@@ -228,12 +234,6 @@
         text-align: center;
       }
     }
-  }
-}
-
-@media screen and (max-width: 1036px) {
-  .features-checklist .list>div:nth-of-type(6) {
-    border-right: 1px solid transparent;
   }
 }
 
