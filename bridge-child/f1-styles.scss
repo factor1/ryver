@@ -9,8 +9,12 @@
   font-weight: 700;
 }
 
+.page-template-features .wrapper .wrapper_inner .content.content_top_margin {
+  margin-top: 0 !important;
+}
+
 .features-hero {
-  padding: 75px 0 25%;
+  padding: 115px 0 25%;
 
   h1 {
     margin-bottom: 50px;
@@ -257,6 +261,7 @@
 
     h2 {
       font-size: 24px;
+      line-height: 1.125;
     }
 
     .g-col-12 {
@@ -334,12 +339,12 @@
     padding: 90px 0;
 
     h1 {
-      margin-bottom: 50px;
       color: #fff;
     }
 
     h2 {
       color: #fff;
+      line-height: 1.125;
     }
 
     .list {
