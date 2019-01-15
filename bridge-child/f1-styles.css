@@ -43,11 +43,11 @@
       padding-top: 10px;
       padding-bottom: 10px;
       padding-left: 30px;
-      border-left: 1.5px solid #e1e5ec;
+      border-left: 2px solid #e1e5ec;
       transition: all .4s ease; }
       .feature-slider .g-col-6 > div.active {
         padding-left: 29px;
-        border-left: 2px solid #0288d1; }
+        border-left: 3px solid #0288d1; }
         .feature-slider .g-col-6 > div.active h2 {
           color: #0288d1; }
         .feature-slider .g-col-6 > div.active p {
