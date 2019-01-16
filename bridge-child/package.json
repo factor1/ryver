@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/factor1/ryver#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^3.9.0",
     "gulp-cssnano": "^2.1.3",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",

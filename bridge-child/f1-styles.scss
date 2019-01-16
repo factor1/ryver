@@ -204,10 +204,19 @@
 }
 
 // Media Queries
+@media screen and (max-width: 1024px) {
+  .features-checklist {
+    .list > div {
+      flex: 0 0 17%;
 
-@media screen and (max-width: 1039px) {
-  .features-checklist .list>div:last-of-type {
-    border-left: none;
+      &:nth-of-type(4) {
+        border-right-color: transparent;
+      }
+
+      &:nth-of-type(5) {
+        border-left-color: transparent;
+      }
+    }
   }
 }
 
@@ -238,16 +247,6 @@
         text-align: center;
       }
     }
-  }
-}
-
-@media screen and (max-width: 812px) {
-  .features-checklist .list>div:last-of-type {
-    border-left: 1px solid #e1e5ec;
-    border-right: 1px solid #e1e5ec;
-  }
-  .features-checklist .list>div:nth-of-type(5) {
-    border-right: none;
   }
 }
 
@@ -302,18 +301,6 @@
     }
   }
 
-  .features-checklist {
-    padding: 40px 0;
-
-    h1 {
-      margin-bottom: 25px;
-      font-size: 30px;
-    }
-
-    h2 {
-      font-size: 24px;
-    }
-  }
   .features-columns {
     padding: 50px 0;
 
@@ -336,13 +323,17 @@
   }
 
   .features-checklist {
+    padding: 40px 0;
     padding: 90px 0;
 
     h1 {
+      margin-bottom: 25px;
+      font-size: 30px;
       color: #fff;
     }
 
     h2 {
+      font-size: 24px;
       color: #fff;
       line-height: 1.125;
     }
@@ -355,35 +346,38 @@
       margin-top: 30px;
       border-radius: 4px;
       background-color: #fff;
-
-      > div {
-        flex: 0 0 10%;
-        margin: 30px 0;
-        padding: 0 20px;
-        border-left: 1px solid #e1e5ec;
-        border-right: 1px solid #e1e5ec;
-
-        &:first-of-type {
-          border-left: 1px solid transparent;
-        }
-
-        &:nth-of-type(3) {
-          border-right: 1px solid transparent;
-        }
-
-        &:nth-of-type(4) {
-          border-left: 1px solid transparent;
-        }
-
-        &:nth-of-type(6) {
-          border-right: 1px solid transparent;
-        }
-
-        &:last-of-type {
-          border-right: 1px solid transparent;
-          border-left: 1px solid transparent;
-        }
-      }
     }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .features-checklist .list > div {
+    flex: 0 0 20%;
+
+    &:nth-of-type(3),
+    &:nth-of-type(6) {
+      border-right-color: transparent;
+    }
+
+    &:nth-of-type(4),
+    &:last-of-type {
+      border-left-color: transparent;
+    }
+
+    &:nth-of-type(4) {
+      border-right-color: #e1e5ec;
+    }
+
+    &:nth-of-type(5) {
+      border-right-color: #e1e5ec;
+      border-left-color: #e1e5ec;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .features-checklist .list > div {
+    flex: 0 0 100%;
+    border-color: transparent !important;
   }
 }
