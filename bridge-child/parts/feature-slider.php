@@ -11,7 +11,7 @@ if( have_rows('slider_sections') ) :
   // Custom Fields
   $sectionColor = get_sub_field('section_color'); // white or gray
   $layoutOption = get_sub_field('section_layout_option'); // images on left or right
-  $headline = get_sub_field('section_headline');
+  $sectionHeadline = get_sub_field('section_headline');
   $subHeadline = get_sub_field('section_subheadline');
 
   // Conditional classes/styles
@@ -21,8 +21,8 @@ if( have_rows('slider_sections') ) :
   <section class="g-sm-hide g-container feature-slider"<?php echo $color; ?>>
     <div class="g-row">
       <div class="g-col-12 text-center">
-        <?php if( $headline ) : ?>
-          <h1><?php echo $headline; ?></h1>
+        <?php if( $sectionHeadline ) : ?>
+          <h1><?php echo $sectionHeadline; ?></h1>
         <?php endif; ?>
 
         <h2><strong><em><?php echo $subHeadline; ?></em></strong></h2>
@@ -72,8 +72,8 @@ if( have_rows('slider_sections') ) :
   <section class="g-sm-only g-container feature-slider"<?php echo $color; ?>>
     <div class="g-row">
       <div class="g-col-12 text-center">
-        <?php if( $headline ) : ?>
-          <!-- <h1><?php //echo $headline; ?></h1> -->
+        <?php if( $sectionHeadline ) : ?>
+          <h1><?php echo $sectionHeadline; ?></h1>
         <?php endif; ?>
 
         <h2><strong><em><?php echo $subHeadline; ?></em></strong></h2>
