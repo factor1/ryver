@@ -250,7 +250,17 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .features-hero {
+    padding-top: 40px;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .features-hero {
+    padding-top: 115px;
+  }
+
   .feature-slider {
     padding-top: 40px;
 
