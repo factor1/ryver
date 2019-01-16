@@ -204,7 +204,8 @@
     .feature-slider__headline {
       display: flex;
       justify-content: center;
-      flex-direction: column; }
+      flex-direction: column;
+      text-align: center; }
   .features-columns {
     padding: 50px 0; }
     .features-columns h1 {
