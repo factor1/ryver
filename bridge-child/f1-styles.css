@@ -133,6 +133,11 @@
   #btnSignUpCenter .qbutton:hover {
     background: linear-gradient(#9be070, #51cc0a); }
 
+.page-template-features #btnSignupIntegrate {
+  height: 58px !important;
+  line-height: 58px !important;
+  font-size: 20px !important; }
+
 #btnsignup {
   border: none !important;
   padding: 5px; }
