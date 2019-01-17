@@ -203,6 +203,8 @@
       text-align: center;
       font-size: 24px;
       line-height: 1.125; }
+      .feature-slider__headline img {
+        margin-right: 0; }
   .features-columns {
     padding: 50px 0; }
     .features-columns .g-col-4 {
