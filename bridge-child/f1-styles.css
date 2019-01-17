@@ -2,7 +2,7 @@
   margin-top: 0 !important; }
 
 .features-hero {
-  padding: 115px 0 25%; }
+  padding: 165px 0 25%; }
   .features-hero h1 {
     margin-bottom: 50px;
     color: #fff; }
@@ -133,6 +133,11 @@
   #btnSignUpCenter .qbutton:hover {
     background: linear-gradient(#9be070, #51cc0a); }
 
+.page-template-features #btnSignupIntegrate {
+  height: 58px !important;
+  line-height: 58px !important;
+  font-size: 20px !important; }
+
 #btnsignup {
   border: none !important;
   padding: 5px; }
@@ -170,7 +175,7 @@
 
 @media screen and (max-width: 1000px) {
   .features-hero {
-    padding-top: 40px; } }
+    padding-top: 90px; } }
 
 @media screen and (max-width: 767px) {
   .features-hero {
@@ -203,6 +208,8 @@
       text-align: center;
       font-size: 24px;
       line-height: 1.125; }
+      .feature-slider__headline img {
+        margin-right: 0; }
   .features-columns {
     padding: 50px 0; }
     .features-columns .g-col-4 {
@@ -210,8 +217,7 @@
   .requestDemo {
     margin-right: 30px !important; }
   .features-checklist {
-    padding: 40px 0;
-    padding: 90px 0; }
+    padding: 40px 0; }
     .features-checklist h1 {
       color: #fff; }
     .features-checklist h2 {
