@@ -16,7 +16,7 @@ function enqueue_parent_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri(). '/style.css', array(), '1.1', 'all' );
 	wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri(). '/custom.css', array(), '1.4', 'all' );
   wp_enqueue_style( 'ginger-grid', get_stylesheet_directory_uri() . '/f1-assets/ginger.min.css', array(), '2.2.0' );
-  wp_enqueue_style( 'f1-styles', get_stylesheet_directory_uri() . '/f1-styles.min.css', array(), '1.2' );
+  wp_enqueue_style( 'f1-styles', get_stylesheet_directory_uri() . '/f1-styles.min.css', array(), '1.2.1' );
 	wp_enqueue_script( 'js-cookie-js', get_stylesheet_directory_uri(). '/js.cookie.js', array( 'jquery' ), '1.1', true ); //https://github.com/js-cookie/js-cookie
 	wp_enqueue_script( 'custom-js', get_stylesheet_directory_uri(). '/custom.js', array( 'jquery' ), '1.1', true );
   wp_enqueue_script( 'f1-js', get_stylesheet_directory_uri() . '/f1-assets/f1-scripts.js', array('jquery'), '1.1', true );

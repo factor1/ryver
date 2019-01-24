@@ -140,7 +140,7 @@
 
 #btnsignup {
   border: none !important;
-  padding: 5px; }
+  padding: 6px !important; }
   #btnsignup:hover {
     background: linear-gradient(#51CC0A, #9BE970); }
 
