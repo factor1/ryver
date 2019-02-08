@@ -5,6 +5,7 @@
 
 // Custom Fields
 $headline = get_field('three_column_headline');
+$privacy_shield = wp_get_attachment_image_src(get_field('privacy_shield'), 'features_privacy_shield');
 
 if( have_rows('columns') ) : ?>
 
@@ -34,6 +35,15 @@ if( have_rows('columns') ) : ?>
       <?php endwhile; ?>
 
     </div>
+
+    <?php if($privacy_shield) : ?>
+    <div class="g-row privacy-shield">
+      <div class="g-col-12 text-center">
+        <img src="<?php echo $privacy_shield[0]; ?>" alt="Privacy Shield Certified">
+      </div>
+    </div>
+    <?php endif; ?>
+
   </section>
 
 <?php endif; ?>

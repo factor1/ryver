@@ -114,6 +114,11 @@
   .features-columns img {
     width: 80px;
     margin-bottom: 25px; }
+  .features-columns .privacy-shield img {
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 0;
+    margin-top: 35px; }
 
 .page-template-features .section3-desk #btnSignupIntegrate,
 #btnSignupIntegrate,
